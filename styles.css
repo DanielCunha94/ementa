@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:500,600,700,900&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Exo', -apple-system, Arial, Helvetica Neue, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-style: normal;
+}
+
+div{
+    margin: 15px;;
+    width: 400px;
+}
+
+main{
+    margin: auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-align: left;
+}
+
+.body-2 {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.25px;
+}
+
+
+.subtitle-1 {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
